@@ -16,7 +16,7 @@ namespace messagebox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_messagebox());
+            Application.Run(new Form1());
         }
     }
 }

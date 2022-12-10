@@ -1,0 +1,12 @@
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\bin\Debug\messagebox.exe.config
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\bin\Debug\messagebox.exe
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\bin\Debug\messagebox.pdb
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.csproj.AssemblyReference.cache
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.Form1.resources
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.frm_messagebox.resources
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.Properties.Resources.resources
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.csproj.GenerateResource.cache
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.exe
+C:\Users\Aleksandr Straton\source\repos\project\messagebox\messagebox\obj\Debug\messagebox.pdb

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_messagebox));
             this.picture_box = new System.Windows.Forms.PictureBox();
             this.lbl_title = new System.Windows.Forms.Label();
             this.separator = new System.Windows.Forms.Panel();
@@ -41,10 +40,10 @@
             // 
             // picture_box
             // 
-            this.picture_box.Image = ((System.Drawing.Image)(resources.GetObject("picture_box.Image")));
-            this.picture_box.Location = new System.Drawing.Point(0, 35);
+            this.picture_box.Image = global::messagebox.Properties.Resources.done_64px;
+            this.picture_box.Location = new System.Drawing.Point(0, 44);
             this.picture_box.Name = "picture_box";
-            this.picture_box.Size = new System.Drawing.Size(350, 90);
+            this.picture_box.Size = new System.Drawing.Size(350, 58);
             this.picture_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_box.TabIndex = 20;
             this.picture_box.TabStop = false;
@@ -53,19 +52,19 @@
             // 
             this.lbl_title.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(121)))), ((int)(((byte)(70)))));
-            this.lbl_title.Location = new System.Drawing.Point(0, 140);
+            this.lbl_title.Location = new System.Drawing.Point(0, 116);
             this.lbl_title.Name = "lbl_title";
             this.lbl_title.Size = new System.Drawing.Size(350, 30);
             this.lbl_title.TabIndex = 21;
-            this.lbl_title.Text = "Oooops!";
+            this.lbl_title.Text = "Alert!";
             this.lbl_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // separator
             // 
             this.separator.BackColor = System.Drawing.Color.White;
-            this.separator.Location = new System.Drawing.Point(12, 188);
+            this.separator.Location = new System.Drawing.Point(12, 163);
             this.separator.Name = "separator";
-            this.separator.Size = new System.Drawing.Size(326, 6);
+            this.separator.Size = new System.Drawing.Size(326, 4);
             this.separator.TabIndex = 22;
             // 
             // lbl_message
@@ -76,9 +75,9 @@
             this.lbl_message.Cursor = System.Windows.Forms.Cursors.Default;
             this.lbl_message.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.lbl_message.ForeColor = System.Drawing.Color.White;
-            this.lbl_message.Location = new System.Drawing.Point(2, 197);
+            this.lbl_message.Location = new System.Drawing.Point(2, 180);
             this.lbl_message.Name = "lbl_message";
-            this.lbl_message.Size = new System.Drawing.Size(348, 90);
+            this.lbl_message.Size = new System.Drawing.Size(348, 104);
             this.lbl_message.TabIndex = 47;
             this.lbl_message.Text = "Message..";
             this.lbl_message.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,11 +85,13 @@
             // btn_confirm
             // 
             this.btn_confirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(121)))), ((int)(((byte)(70)))));
+            this.btn_confirm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_confirm.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btn_confirm.FlatAppearance.BorderSize = 0;
             this.btn_confirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_confirm.Font = new System.Drawing.Font("Segoe UI Semibold", 12F);
             this.btn_confirm.ForeColor = System.Drawing.Color.White;
-            this.btn_confirm.Location = new System.Drawing.Point(74, 280);
+            this.btn_confirm.Location = new System.Drawing.Point(71, 298);
             this.btn_confirm.Name = "btn_confirm";
             this.btn_confirm.Size = new System.Drawing.Size(200, 40);
             this.btn_confirm.TabIndex = 48;
@@ -100,11 +101,13 @@
             // btn_yes
             // 
             this.btn_yes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(169)))), ((int)(((byte)(248)))));
+            this.btn_yes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_yes.DialogResult = System.Windows.Forms.DialogResult.Yes;
             this.btn_yes.FlatAppearance.BorderSize = 0;
             this.btn_yes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yes.Font = new System.Drawing.Font("Segoe UI Semibold", 12F);
             this.btn_yes.ForeColor = System.Drawing.Color.White;
-            this.btn_yes.Location = new System.Drawing.Point(86, 280);
+            this.btn_yes.Location = new System.Drawing.Point(82, 298);
             this.btn_yes.Name = "btn_yes";
             this.btn_yes.Size = new System.Drawing.Size(80, 40);
             this.btn_yes.TabIndex = 49;
@@ -114,11 +117,13 @@
             // btn_no
             // 
             this.btn_no.BackColor = System.Drawing.Color.Gray;
+            this.btn_no.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_no.DialogResult = System.Windows.Forms.DialogResult.No;
             this.btn_no.FlatAppearance.BorderSize = 0;
             this.btn_no.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_no.Font = new System.Drawing.Font("Segoe UI Semibold", 12F);
             this.btn_no.ForeColor = System.Drawing.Color.White;
-            this.btn_no.Location = new System.Drawing.Point(183, 280);
+            this.btn_no.Location = new System.Drawing.Point(182, 298);
             this.btn_no.Name = "btn_no";
             this.btn_no.Size = new System.Drawing.Size(80, 40);
             this.btn_no.TabIndex = 50;
@@ -131,13 +136,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
             this.ClientSize = new System.Drawing.Size(350, 350);
-            this.Controls.Add(this.btn_confirm);
-            this.Controls.Add(this.btn_no);
-            this.Controls.Add(this.btn_yes);
             this.Controls.Add(this.lbl_message);
             this.Controls.Add(this.separator);
             this.Controls.Add(this.lbl_title);
             this.Controls.Add(this.picture_box);
+            this.Controls.Add(this.btn_confirm);
+            this.Controls.Add(this.btn_no);
+            this.Controls.Add(this.btn_yes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_messagebox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -151,11 +156,11 @@
 
         public System.Windows.Forms.PictureBox picture_box;
         public System.Windows.Forms.Label lbl_title;
-        private System.Windows.Forms.Panel separator;
-        private System.Windows.Forms.Label lbl_message;
-        private System.Windows.Forms.Button btn_confirm;
-        private System.Windows.Forms.Button btn_yes;
-        private System.Windows.Forms.Button btn_no;
+        public System.Windows.Forms.Panel separator;
+        public System.Windows.Forms.Label lbl_message;
+        public System.Windows.Forms.Button btn_confirm;
+        public System.Windows.Forms.Button btn_yes;
+        public System.Windows.Forms.Button btn_no;
     }
 }
 
