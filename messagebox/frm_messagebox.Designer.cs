@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_messagebox));
             this.picture_box = new System.Windows.Forms.PictureBox();
             this.lbl_title = new System.Windows.Forms.Label();
             this.separator = new System.Windows.Forms.Panel();
@@ -41,10 +40,10 @@
             // 
             // picture_box
             // 
-            this.picture_box.Image = ((System.Drawing.Image)(resources.GetObject("picture_box.Image")));
-            this.picture_box.Location = new System.Drawing.Point(0, 35);
+            this.picture_box.Image = global::messagebox.Properties.Resources.done_64px;
+            this.picture_box.Location = new System.Drawing.Point(0, 56);
             this.picture_box.Name = "picture_box";
-            this.picture_box.Size = new System.Drawing.Size(350, 90);
+            this.picture_box.Size = new System.Drawing.Size(350, 69);
             this.picture_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_box.TabIndex = 20;
             this.picture_box.TabStop = false;
